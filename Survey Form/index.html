@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="">
+      <h1 id="title"> Principais gêneros de jogos</h1>
+      </div>
+        <form id="survey-form">
+          <p id="description"> Preencha o formulario abaixo e contribua com a Pesquisa sobre <br> quais 
+            são as categorias de jogos mais jogadas por cada faixa de idade</p>
+            <br>
+          <label id="name-label"for="name">
+            Nome <input id="name" type="text" placeholder="Insira seu nome" required>
+          </label>
+          <label id="email-label"for="email">
+            Email <input id="email" type="email" placeholder="Insira seu email" required>
+          </label>
+          <label id="number-label"for="number">
+            Idade <input id="number"type="number" min="5" max="80" placeholder="age" required>
+          </label>
+          <label for="dropdown">
+            Qual é sua plataforma de jogos preferida?
+            <select name="name" id="dropdown">
+            <option value="pc">PC</option>
+            <option value="console">Console</option>
+            <option value="mobile">Mobile</option>
+          </select>
+        </label>
+          <p>Qual seu Sexo?</p>
+          
+          <label for="masculino "name="genero"><input type="radio" name="genero" value="masculino">masculino
+          </label>
+          
+          <label for="feminino "name="genero"><input type="radio" name="genero" value="feminino">Feminino
+          </label>
+          <label for="outro"><input type="radio" name="genero" value="outro">Outro</label>
+          
+          <br>
+          <p>Quais generos de jogos que voce mais gosta?</p>
+          <label for="acao">
+            <input type="checkbox" name="categoria" id="acao" value="acao">Ação
+          </label>
+          <label for="aventura">
+            <input type="checkbox" name="categoria" id="aventura" value="aventura">Aventura
+          </label>
+          <label for="luta">
+            <input type="checkbox" name="categoria" id="luta" value="luta">Luta
+          </label>
+          <label for="tiro">
+            <input type="checkbox" name="categoria" id="tiro" value="tiro">Tiro
+          </label>
+          <label for="rpg">
+            <input type="checkbox" name="categoria" id="rpg" value="rpg">RPG
+          </label>
+          <label for="simulação">
+            <input type="checkbox" name="categoria" id="simulaçao" value="simulaçao">Simulação
+          </label>
+          <label for="musica">
+            <input type="checkbox" name="categoria" id="musica" value="musica">Música
+          </label>
+          <label for="plataforma">
+            <input type="checkbox" name="categoria" id="plataforma" value="plataforma">Plataforma
+          <br>
+          <p>Alguma dúvida ou sujestão</p>
+          <textarea name="textarea" id="textarea" cols="25" rows="10" placeholder="OPICIONAL"></textarea>
+          <br>
+          <button type="submit" id="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>MICHEL OLIVEIRA-2020</footer>
+  </body>
+</html>
