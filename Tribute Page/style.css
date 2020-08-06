@@ -1,0 +1,53 @@
+body{background: linear-gradient(90deg,#02152b,#295180,#37bade);}
+#title{
+  font-family:monospace;
+  text-align: center;
+  color: white;
+}
+#tribute-info{
+  font-family: monospace;
+  text-align: center;
+  color: white;
+}
+#img-div{
+  /*background-color: #6f7271;*/
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  align-items: center;
+  margin: 0 auto;
+}
+#image{
+  display: block; /*define que o container será renderizado em formato bloco*/
+  max-width: 100%;
+  box-shadow: 10px 10px 20px black;
+ 
+}
+#main{  
+}
+#img-caption{
+  font-family: monospace;
+  color: ivory;
+}
+#tribute-link{
+  font-family: monospace;
+  color: white;
+  padding-left: 40%;
+}
+article{
+  background-color: #02152b;
+  box-shadow: 20px 20px 20px black;
+  font-family: monospace;
+  color: white;
+  margin: 0 20% 0 20%;
+}
+
+a:link{
+  text-decoration: none;
+}
+footer{
+  font-family: monospace;
+  color: white;
+  text-align: center;
+} 
